@@ -15,16 +15,14 @@ ComicsViewer1.0.0-SNAPSHOT
 | run.py      | 主要代码文件        |  文件   |
 
 ## 使用方法
-### 1
-将漫画文件夹放在contents目录下，即
-	contents/C(94).../xxxx.jpg
-注意，多级目录将不会被解析
-	contents/favorite/C(94).../xxxx.jpg
+### Step1
+将漫画文件夹放在contents目录下，即```contents/C(94).../xxxx.jpg```
+注意，如```contents/favorite/C(94).../xxxx.jpg```等多级目录将不会被解析
 
-### 2
+### Step2
 当前目录运行```python run.py```或是Windows用户双击run.bat
 
-### 3
+### Step3
 点击生成的index.html文件
 
 ## 未来可能有的更新 
