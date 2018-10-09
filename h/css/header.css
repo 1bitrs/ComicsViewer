@@ -1,0 +1,207 @@
+@charset "UTF-8";
+
+#header {
+	width: 100%;
+	background-repeat: repeat-x;
+	background-position: left bottom;
+	background-image: url(../img/header_bg.png);
+	clear: both;
+	float: left;
+	padding-bottom: 20px
+}
+
+#header_outline {
+	width: 1000px;
+	margin-right: auto;
+	margin-left: auto
+}
+
+#header_inner {
+	width: 1000px;
+	float: left;
+	clear: both
+}
+
+#header #logo {
+	height: 85px;
+	width: 320px;
+	float: left;
+	padding-top: 10px;
+	margin-right: 40px
+}
+
+#header .dec {
+	float: left;
+	margin-top: 25px
+}
+
+#header .menu {
+	float: right;
+	width: 230px;
+	height: 103px
+}
+
+#header .menu li {
+	float: left
+}
+
+#header .menu li a {
+	height: 90px;
+	display: block;
+	background-repeat: repeat-y;
+	background-position: left top;
+	-webkit-transition: .3s ease-in-out;
+	-moz-transition: .3s ease-in-out;
+	-o-transition: .3s ease-in-out
+}
+
+.slide1 a {
+	width: 90px;
+	background-image: url(../img/header_bg_menu1.png)
+}
+
+.slide2 a,.slide3 a,.slide4 a {
+	width: 70px
+}
+
+.slide2 a {
+	background-image: url(../img/header_bg_menu2.png)
+}
+
+.slide3 a {
+	background-image: url(../img/header_bg_menu3.png)
+}
+
+.slide4 a {
+	background-image: url(../img/header_bg_menu4.png)
+}
+
+#header .menu li a:hover {
+	padding-top: 13px
+}
+
+#min #header,#postform #header {
+	background-color: #604c3f;
+	text-align: center;
+	width: 100%;
+	padding-top: 20px;
+	padding-bottom: 15px;
+	background-image: none;
+	float: none
+}
+
+#min #header h1,#postform #header h1 {
+	float: none;
+	font-weight: 700
+}
+
+#gallery #header {
+	width: 100%;
+	background-image: url(../img/header_bg_gallery.png);
+	background-repeat: repeat-x;
+	background-position: left top;
+	height: 50px;
+	position: relative;
+	float: left
+}
+
+#gallery #header_outline {
+	padding-left: 30px;
+	padding-top: 3px
+}
+
+#gallery #header img.logo {
+	float: left
+}
+
+#gallery #header form {
+	float: left;
+	padding-left: 30px;
+	background-color: #000;
+	color: #fff
+}
+
+#gallery #header form p {
+	float: left
+}
+
+#gallery #header .selectpage {
+	background-image: url(../img/gallery_icon_book.png);
+	background-repeat: no-repeat;
+	background-position: left 3px;
+	height: 30px;
+	padding-left: 45px;
+	width: 100px
+}
+
+#gallery #header .selectpage select {
+	float: left;
+	margin-top: 5px;
+	margin-right: 10px;
+	width: 90px
+}
+
+#gallery #header .img_focus {
+	background-image: url(../img/gallery_icon_focus.png);
+	background-repeat: no-repeat;
+	background-position: left 1px;
+	height: 30px;
+	padding-left: 45px;
+	margin-left: 30px;
+	width: 245px;
+	line-height: 31px
+}
+
+#gallery #header .img_focus select {
+	width: 70px;
+	margin-top: 5px;
+	float: left;
+	margin-right: 8px
+}
+
+#gallery #header .view_ope {
+	width: 200px;
+	padding-top: 3px
+}
+
+#gallery #header #opebox {
+	float: right;
+	width: 220px;
+	padding-right: 10px;
+	position: absolute;
+	top: 0;
+	right: 0;
+	padding-top: 5px;
+	height: 175px;
+	z-index: 1
+}
+
+#gallery #header #opebox .ope {
+	color: #fff;
+	background-image: url(../img/galley_bg_ope.png);
+	float: left;
+	background-repeat: no-repeat;
+	background-position: left top;
+	height: 25px;
+	width: 81px;
+	text-align: center;
+	line-height: 25px;
+	padding-right: 13px
+}
+
+#gallery #header #opebox img {
+	float: right;
+	position: absolute;
+	top: 0;
+	right: 0;
+	margin-right: 15px
+}
+
+#gallery #header #opebox p {
+	color: #e60012;
+	width: 200px;
+	text-align: center;
+	font-size: 8pt;
+	margin-top: 155px;
+	margin-left: 30px
+}

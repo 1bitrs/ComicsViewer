@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="referrer" content="never">
+<meta http-equiv="content-style-type" content="text/css" />
+<meta http-equiv="content-script-type" content="text/javascript" />
+<title>{title}</title>
+<link rel="icon" href="../../h/img/favicon.ico">
+<link href="../../h/css/style.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript">
+{imgData}
+</script>
+<script type="text/javascript" src="../../h/js/jquery-1.3.2.min.js"></script>
+<script type="text/javascript" src="../../h/js/g.js"></script>
+<link rel="stylesheet" type="text/css" href="../../h/css/main.css" />
+</head>
+<body id="gallery">
+
+<div id="container">
+
+<div id="header">
+<div id="header_outline">
+<a href="https://hcomic.in"><img src="../../h/img/logo.png" width="175" height="32" class="logo" /></a>
+<form action="" method="get">
+<p class="selectpage">
+<select name="page" id="page_number" onchange="Selc(this)">
+{options}
+</select>
+</p>
+<p class="img_focus">
+<select name="focus" id="zoom" onchange="zm(this)">
+<option value="240">240%</option>
+<option value="220">220%</option>
+<option value="200">200%</option>
+<option value="180">180%</option>
+<option value="160">160%</option>
+<option value="140">140%</option>
+<option value="120">120%</option>
+<option value="100" selected="selected">100%</option>
+<option value="90">90%</option>
+<option value="80">80%</option>
+<option value="70">70%</option>
+<option value="60">60%</option>
+<option value="50">50%</option>
+</select>
+<input name="view" type="radio" value="all" checked="checked" id="all" /><label for="all">全体表示</label>
+<input name="view" type="radio" value="original" id="original" /><label for="original">原寸表示</label>
+</p>
+<p class="view_ope">
+&nbsp;&nbsp;&nbsp;操作方法：
+<input type="button" value="表示" onclick="document.getElementById('opebox').style.display = 'block';">
+<input type="button" value="非表示" onclick="document.getElementById('opebox').style.display = 'none';">
+</p>
+</form>
+<div id="opebox" style="display:none">
+<span class="ope">操作方法</span>
+<img src="../../h/img/teach.png" width="155" height="155" alt="操作方法" />
+<p>※ブラウザのバージョンによっては<br />キー操作は出来ません</p>
+</div>
+</div>
+</div>
+
+<div id="wrap">
+<div id="iad_left"> <div style="height:728px;width:90px;"></div> </div>
+<div id="contents">
+<a href="javascript:void(0)" id="chg" onclick="chgImg({count})">
+	<img id="thumbnail" src="{first_img}"/>
+</a>
+<img id="thumbnail2" src="{next_img}" width="0" height="0" />
+</div>
+</div>
+
+</body>
+</html>

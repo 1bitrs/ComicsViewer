@@ -1,0 +1,118 @@
+@charset "UTF-8";
+
+#container {
+	width: 100%
+}
+
+#gallery #container {
+	min-height: 100%;
+	height: auto!important
+}
+
+html,body {
+	height: 100%
+	background-color: #1d1f21
+}
+
+body>#gallery #container {
+	height: auto
+}
+
+body,h1,h2,h3,h4,h5,h6,div,ul,li,p,table,td,tr,img {
+	margin: 0;
+	padding: 0
+}
+
+a {
+	text-decoration: none;
+	color: #231815
+}
+
+a:link {
+	text-decoration: none
+}
+
+a:visited {
+	text-decoration: none
+}
+
+a:hover {
+	text-decoration: underline
+}
+
+a:active {
+	text-decoration: none
+}
+
+img {
+	border: none
+}
+
+ul {
+	list-style-type: none
+}
+
+.centering {
+	text-align: center
+}
+
+input[type=text],input[type=password] {
+	height: 22px;
+	border: 1px solid #ccced0
+}
+
+textarea {
+	border: 1px solid #ccced0
+}
+
+input.over[type=submit] {
+	color: #fff;
+	border: 1px solid #9fa0a0;
+	filter: progid:DXImageTransform.Microsoft.Gradient(StartColorStr=#E60012,EndColorStr=#B60005);
+	background: -moz-linear-gradient(top,#E60012,#B60005);
+	background: -webkit-gradient(linear,left top,left bottom,from(#E60012),to(#B60005));
+	text-align: center;
+	display: block;
+	height: 30px
+}
+
+input[type=text]:focus,input[type=password]:focus,textarea:focus {
+	background-color: #fcf5f5
+}
+
+.content_form input[type=text]:focus,.content_form textarea:focus {
+	background-color: #fafff4;
+	-moz-box-shadow: 0 0 3px #d0c2b7;
+	-webkit-box-shadow: 0 0 3px #d0c2b7;
+	box-shadow: 0 0 3px #d0c2b7
+}
+
+input[type=image].over,a img.over {
+	opacity: 1;
+	filter: alpha(opacity=100)
+}
+
+input[type=image].over:focus {
+	opacity: .8;
+	filter: alpha(opacity=80)
+}
+
+input[type=image].over:active {
+	opacity: .8;
+	filter: alpha(opacity=80)
+}
+
+input[type=image].over:hover,a:hover img.over {
+	opacity: .8;
+	filter: alpha(opacity=80)
+}
+
+.thumb,.content_editfile .thumb_select li {
+	background-color: #fff;
+	border: 1px solid #e2e3e7;
+	text-align: center;
+	padding: 5px;
+	-moz-box-shadow: 1px 1px 5px #c0c4cd;
+	-webkit-box-shadow: 1px 1px 5px #c0c4cd;
+	box-shadow: 1px 1px 5px #c0c4cd
+}

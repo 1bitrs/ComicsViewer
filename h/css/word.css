@@ -1,0 +1,92 @@
+@charset "UTF-8";
+
+body {
+	font-family: ヒラギノ角ゴ pro w3,hiragino kaku gothic pro,メイリオ,Meiryo,Osaka,ＭＳ Ｐゴシック,ms pgothic,sans-serif;
+	font-size: 9pt;
+	font-variant: normal;
+	font-weight: 400;
+	color: #231815;
+	background-color: #1d1f21
+}
+
+h1 {
+	float: right;
+	font-size: 12pt;
+	font-weight: 400;
+	color: #fff;
+	letter-spacing: 4px
+}
+
+h2 {
+	font-size: 12pt
+}
+
+h3 {
+	font-size: 10pt;
+	line-height: 29px
+}
+
+.bold {
+	font-weight: 700
+}
+
+.checktext {
+	float: left;
+	padding-left: 5px
+}
+
+.red {
+	color: #e60012
+}
+
+.error {
+	color: #e60012;
+	font-weight: 700
+}
+
+.attention {
+	color: #e60012
+}
+
+.date {
+	font-size: 9pt;
+	color: #e60012
+}
+
+.time {
+	margin-left: 5px
+}
+
+.unit {
+	margin-left: 3px;
+	font-size: 8pt;
+	letter-spacing: normal
+}
+
+.content .topic {
+	font-size: 11pt;
+	font-weight: 700;
+	color: #063
+}
+
+div.content_help p.topic {
+	color: #063
+}
+
+div.content_rule p.topic,div.content_faq p.topic {
+	color: #074198
+}
+
+div.content_req p.topic,div.content_master p.topic {
+	color: #c06
+}
+
+.fullcontent_text .topic {
+	font-size: 12pt;
+	font-weight: 700;
+	margin-bottom: 5px
+}
+
+p.text {
+	padding: 10px
+}
