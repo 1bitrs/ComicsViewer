@@ -6,13 +6,14 @@ ComicsViewer1.0.0-SNAPSHOT
 
 ## 目录结构
 | 名称        | 说明                |  类型   |
-| --------    | :-----              | :----:  |
-| contents    | 漫画文件存放目录    |  目录   |
+| --------    | :-----             | :----:  |
+| contents    | 漫画文件存放目录     |  目录   |
 | data        | shelve数据目录      |  目录   |
-| h           | HTML模块文件目录    |  目录   |
-| README.md   | 项目说明文件        |  文件   |
+| h           | HTML模块文件目录     |  目录   |
+| README.md   | 项目说明文件         |  文件   |
 | run.bat     | 运行python run.py   |  文件   |
-| run.py      | 主要代码文件        |  文件   |
+| run.py      | 主要代码文件         |  文件   |
+| index.html  | 程序运行后生成       |  文件   |
 
 ## 使用方法
 ### Step1
